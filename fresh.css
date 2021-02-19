@@ -1,0 +1,145 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    z-index: 1;
+    size: 100% 100%;
+    background-color: rgb(44, 43, 43);
+}
+
+#freshestMain{
+     background-color: rgb(44, 43, 43);
+    background-image: url(green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+p, ul li, h1{
+    color: white;
+    font-size:26px;
+    font-family: 'Abel', sans-serif;
+}
+p{
+    justify-content: flex-start;
+
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    
+}
+#nav ul{
+    display: flex;
+}
+#nav li{
+    list-style: none;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: space-between;
+}
+div#nav{
+    border-bottom: 1px solid white;
+}
+.white{
+    color: white;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#container li{
+    display: flex;
+    justify-content: center;
+    
+}
+#main{
+   height: 90vh;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 5;
+}
+
+#mainText{
+    width: 500px;
+}
+
+ul#container.box{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+li#fresh.white{
+    align-items: center;
+}
+li.white2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#container{
+    text-align: center;
+}
+#fresh{
+    font-size: 90px;
+    border-bottom: 1px solid white;
+}
+#healthy{
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+
+/* Lower Half*/
+#main1{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.headText{
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.text{
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-size: 26;
+    font-weight: lighter;
+}
+h2{
+    margin-left: 20px;
+    padding-top: 50px;
+    font-size: 40px;
+}
+p{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+#firstImg, #thirdImg{
+    float: left;
+}
+#secondImg{
+    float: right;
+}
+#first, #third{
+    display: flex;
+    justify-content: space-between;
+}
+#first{
+    margin-top: 2px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
